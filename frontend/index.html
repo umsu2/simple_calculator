@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+    <script src="calculator.js"></script>
+</head>
+<body>
+
+</body>
+</html>
+
+<form id='calculate_form'>
+    <input type="number" name="var1" >
+
+    <select name="operator">
+        <option selected='selected' value="x">x</option>
+        <option value="/">/</option>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="mod">%</option>
+    </select>
+
+    <input type="number" name="var2">
+    <br>
+    <input type="submit" value="Calculate" class="btn btn-danger">
+</form>
+
+<p id="calc_result" >Result is: </p>
