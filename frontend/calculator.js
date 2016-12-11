@@ -11,8 +11,6 @@ $(document).ready(function() {
             data: $('#calculate_form').serialize(),
             success: function (event) {
 
-                console.log(event);
-
                 $('#calc_result').text('Result is: '+ event.result);
                 console.log('form submitted.');
 
